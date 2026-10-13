@@ -1,0 +1,26 @@
+name: nutribowl_flutter
+description: NutriBowl website wrapped in a Flutter WebView
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^6.10.0
+  firebase_core: ^4.15.0
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/nutribowl/index.html

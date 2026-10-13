@@ -1,0 +1,11 @@
+{
+  "name": "NutriBowl",
+  "short_name": "NutriBowl",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#174d38",
+  "description": "NutriBowl — Eat well, feel better.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}
